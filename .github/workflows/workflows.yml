@@ -7,7 +7,7 @@ on:
 jobs:
     build:
       name: "Ejercicio-1"
-      run-on: ubuntu-lastest
+      run-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v2
         - uses: actions/setup-node@v1
